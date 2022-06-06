@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+
+#firstHeader{
+color: hsl(179, 62%, 43%);
+}
+#moneyBack{
+color: hsl(71, 73%, 54%);
+}
+.firstContainer{
+    padding: 1rem 2rem;
+    background-color: white;
+    flex-grow: 1;
+}
+.secondContainer{
+    background-color:#2BB3B1;
+    padding: 1rem 2rem;
+    flex-grow: 1;
+}
+.secondContainer p {
+    margin: 0.3rem;
+}
+.whiteColor{
+    color: white;
+}
+.greyColor{
+    color: lightgray;
+}
+
+.greyBlue{
+    color: hsl(218, 22%, 67%);
+}
+.button{
+    width: 100%;
+    padding: 1rem 0rem;
+    border-radius: 0.3rem;
+    border-width: 0px;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.4rem;
+  }
+.thirdContainer{
+    background-color: #4ABEBD;
+    padding: 1rem 2rem;
+    flex-grow: 1;
+}
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    line-height: 1.8rem;
+}
+span{
+    margin-right: 0.5rem;
+}
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: #E6EFF6;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .container{
+        height: 60vh;
+        max-width: 90vh;
+        
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+}
